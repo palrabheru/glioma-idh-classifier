@@ -250,3 +250,9 @@ A classifier may learn tumor grade, tissue composition, batch, or cohort-specifi
 ## License
 
 No license has been selected yet. Add one before redistribution or reuse.
+
+## Portfolio review note
+
+The checked-in demonstration illustrates **software behavior on synthetic data**, not diagnostic accuracy in people with glioma. A research-grade evaluation would require real expression profiles with verified IDH labels, patient-level separation, transparent class composition, and independent validation. IDH status must be confirmed by accepted molecular testing rather than inferred as ground truth from expression.
+
+For technical review, see the end-to-end notebook, the `src/` pipeline, the tests, and the example output figures. Synthetic-data test results do not establish generalizability to clinical cohorts.
